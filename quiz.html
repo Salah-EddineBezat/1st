@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moslimhaat - Bewustwording en Educatie</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome voor sociale media iconen -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="style.css">
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="container">
+        <nav class="nav-bar navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Moslimhaat Educatie</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="initiatief.html">Initiatief</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="informatie.html">Informatie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quiz.html">Quiz</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="container mt-5">
+        <div class="text-center mb-4">
+            <h1 class="fw-bold text-dark">Moslimhaat - Bewustwording en Educatie</h1>
+            <p class="lead text-secondary">Test je kennis over discriminatie en de islam.</p>
+        </div>
+
+        <!-- Quiz Container -->
+        <div class="quiz-container mx-auto col-lg-8 col-md-10 col-12">
+            <h2 class="text-center mb-4">Start de Quiz</h2>
+            <form id="quizForm">
+                <!-- Quizvragen -->
+                <div class="mb-3">
+                    <p><strong>1.</strong> Hoeveel moslims leven er wereldwijd?</p>
+                    <div class="form-check">
+                        <input type="radio" name="q1" value="a" class="form-check-input" id="q1a">
+                        <label class="form-check-label" for="q1a">A. Ongeveer 1 miljard</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q1" value="b" class="form-check-input" id="q1b">
+                        <label class="form-check-label" for="q1b">B. Ongeveer 2 miljard</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q1" value="c" class="form-check-input" id="q1c">
+                        <label class="form-check-label" for="q1c">C. Ongeveer 3 miljard</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <p><strong>2.</strong> Wat is de snelst groeiende religie ter wereld?</p>
+                    <div class="form-check">
+                        <input type="radio" name="q2" value="a" class="form-check-input" id="q2a">
+                        <label class="form-check-label" for="q2a">A. Christendom</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q2" value="b" class="form-check-input" id="q2b">
+                        <label class="form-check-label" for="q2b">B. Islam</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q2" value="c" class="form-check-input" id="q2c">
+                        <label class="form-check-label" for="q2c">C. Hindoeïsme</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <p><strong>3.</strong> Wat wordt als de belangrijkste oorzaak van moslimhaat gezien?</p>
+                    <div class="form-check">
+                        <input type="radio" name="q3" value="a" class="form-check-input" id="q3a">
+                        <label class="form-check-label" for="q3a">A. Behandelen op basis van
+                            ras/religie/geslacht</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q3" value="b" class="form-check-input" id="q3b">
+                        <label class="form-check-label" for="q3b">B. Het ontbreken van kennis over de islam</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q3" value="c" class="form-check-input" id="q3c">
+                        <label class="form-check-label" for="q3c">C. Onzekerheid over het geloof</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <p><strong>4.</strong> Wat is een gevolg van moslimhaat?</p>
+                    <div class="form-check">
+                        <input type="radio" name="q4" value="a" class="form-check-input" id="q4a">
+                        <label class="form-check-label" for="q4a">A. Meer acceptatie van moslims in de
+                            samenleving</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q4" value="b" class="form-check-input" id="q4b">
+                        <label class="form-check-label" for="q4b">B. Verdeeldheid en wantrouwen in de
+                            samenleving</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q4" value="c" class="form-check-input" id="q4c">
+                        <label class="form-check-label" for="q4c">C. Verhoogde politieke steun voor moslims</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <p><strong>5.</strong> Hoe kan moslimhaat negatieve gevolgen hebben voor moslims?</p>
+                    <div class="form-check">
+                        <input type="radio" name="q5" value="a" class="form-check-input" id="q5a">
+                        <label class="form-check-label" for="q5a">A. Minder kansen op werk en sociale acceptatie</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q5" value="b" class="form-check-input" id="q5b">
+                        <label class="form-check-label" for="q5b">B. Grotere invloed in de politiek</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q5" value="c" class="form-check-input" id="q5c">
+                        <label class="form-check-label" for="q5c">C. Meer vrijheid in hun geloofsbeleving</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <p><strong>6.</strong> Hoe staan moslims tegenover geweld in naam van religie?</p>
+                    <div class="form-check">
+                        <input type="radio" name="q6" value="a" class="form-check-input" id="q6a">
+                        <label class="form-check-label" for="q6a">A. Moslims goedkeuren geen geweld, ongeacht de
+                            situatie</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q6" value="b" class="form-check-input" id="q6b">
+                        <label class="form-check-label" for="q6b">B. Moslims zien geweld als gerechtvaardigd in bepaalde
+                            gevallen</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <p><strong>7.</strong> Wat kunnen we doen om moslimhaat tegen te gaan?</p>
+                    <div class="form-check">
+                        <input type="radio" name="q7" value="a" class="form-check-input" id="q7a">
+                        <label class="form-check-label" for="q7a">A. Bevorderen van begrip en respect voor verschillende
+                            culturen</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="q7" value="b" class="form-check-input" id="q7b">
+                        <label class="form-check-label" for="q7b">B. Moslims negeren en uitsluiten uit de
+                            samenleving</label>
+                    </div>
+                </div>
+
+                <!-- Submit knop -->
+                <button type="button" class="btn btn-primary w-100 mt-4" onclick="submitQuiz()">Verzend Quiz</button>
+            </form>
+        </div>
+
+        <!-- Resultaat na quiz -->
+        <div id="quizResult" class="mt-4 text-center"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Over Ons</h5>
+                    <p>Wij bieden een beter perspectief van wie moslims zijn en streven naar saamhorigheid.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Snelle Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="initiatief.html" class="text-white">Initiatief</a></li>
+                        <li><a href="informatie.html" class="text-white">Informatie</a></li>
+                        <li><a href="privacy.html" class="text-white">Privacybeleid</a></li>
+                        <li><a href="quiz.html" class="text-white">Quiz</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <p>
+                        <i class="fas fa-envelope"></i> salaheddinealayubi@gmail.com<br>
+                        <i class="fas fa-map-marker-alt"></i> Rotterdam
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-secondary py-2 mt-3">
+            <p class="mb-0">&copy; 2024 Alle rechten voorbehouden: <a href="rechten.html" class="text-white">Rechten</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
