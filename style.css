@@ -182,3 +182,15 @@ body {
 .header-section{
     overflow: hidden;
 }
+
+.correct {
+    background-color: #d4edda; /* Lichtgroene achtergrond voor correcte antwoorden */
+    border-color: #c3e6cb;
+    pointer-events: none; /* Maakt de velden niet klikbaar */
+  }
+
+
+.incorrect {
+    background-color: #f8d7da; /* Rood */
+    border-color: #f5c6cb;
+}
