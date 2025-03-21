@@ -9,20 +9,23 @@
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Font Awesome voor sociale media iconen -->
+    <!-- Font Awesome for social media icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
     <!-- Navigation Bar -->
+
+    <!-- Navigation Bar -->
     <header class="container">
-        <nav class="nav-bar navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="nav-bar navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Moslimhaat Educatie</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -30,6 +33,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="donatie.html">Doneer!</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
@@ -52,6 +58,15 @@
         <div class="text-center mb-4">
             <h1 class="fw-bold text-dark">Moslimhaat - Bewustwording en Educatie</h1>
             <p class="lead text-secondary">Test je kennis over discriminatie en de islam.</p>
+        </div>
+
+        <!-- Video Section -->
+        <div class="row mb-4">
+            <div class="col-md-12 text-center">
+                <h2>Scan de qr code!</h2>
+                <img src="./images//qrCode.png" alt="Qr code" class="qrCode">
+                <p class="mt-2">Met deze qr code kun je de quiz maken.</p>
+            </div>
         </div>
 
         <!-- Quiz Container -->
@@ -218,17 +233,18 @@
             </p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
         // Functie om quiz in te dienen
         function submitQuiz() {
             let correctAnswers = {
-                q1: "b",
+                q1: "a",
                 q2: "b",
                 q3: "b",
                 q4: "b",
                 q5: "a",
-                q6: "b",
+                q6: "a",
                 q7: "a"
             };
             let quizForm = document.getElementById("quizForm");
